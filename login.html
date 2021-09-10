@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        .form
+        {
+            padding:20px;
+            padding-right: 50px;
+            position: absolute;
+            top: 30%;
+            left:38%;
+        }
+        .form input[type="text"]
+        {
+            width: 80%;
+            padding-top:7px;
+            padding-bottom: 7px;
+            border-radius: 5px;
+        }
+        .form input[type="text"]:hover
+        {
+         width: 100%;
+         border-radius: 15px;
+        }
+        .form input[type="password"]
+        {
+            width: 80%;
+            padding-top:7px;
+            padding-bottom: 7px;
+            border-radius: 5px;
+        }
+        .form input[type="password"]:hover
+        {
+         width: 100%;
+         border-radius: 15px;
+        }
+        form input[type="submit"]
+        {
+            width: 50%;
+            padding-top:7px;
+            padding-bottom: 7px;
+            border-radius: 5px;
+            background-color: darkblue;
+            color: whitesmoke;
+            font-size: 15px;
+        }
+        .heading
+        {
+            position:absolute;
+            left:46%;
+            top: 0%;
+            font-size: 15px;
+            z-index: 1;
+        } 
+
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>QUANTUM</h1>
+    </div>
+    <img src="trainsketch.jpg" style="position: absolute; left: 30%;" >
+    <section class="form">
+        <form method="GET" action="">
+            <h4 style="margin-bottom: 5px; font-family:Arial, Helvetica, sans-serif;">Username:</h4>
+            <input type="text" placeholder="*saini001" name="username">
+            <h4 style="margin-bottom: 5px; font-family:Arial, Helvetica, sans-serif;">Password:</h4>
+            <input type="password" name="password" placeholder="*ex:saini@12"><br>
+            <br>
+            <input type="submit" value="Login">
+            <br>
+            <br>
+            <a href="creat_account.html" style="margin-right: 30px; text-decoration: none;" target="blank" >Creat Account</a>
+            <a href="#" style="text-decoration: none;" >Forgot password</a>
+        </form>
+    </section>
+</body>
+</html>
